@@ -19,6 +19,14 @@ Ubuntu/Debian:
     $ cabal update
     $ cabal install hmatrix-tests
 
+fedora
+```
+sudo dnf install blas-devel
+sudo dnf install lapack-devel
+sudo dnf install gsl-devel
+cabal install hmatrix-tests
+```
+
 Other distributions may require additional libraries. They can be given in a **--configure-option**.
 
 Adrian Victor Crisciu has developed an [installation method](http://comments.gmane.org/gmane.comp.lang.haskell.glasgow.user/24976) for systems
